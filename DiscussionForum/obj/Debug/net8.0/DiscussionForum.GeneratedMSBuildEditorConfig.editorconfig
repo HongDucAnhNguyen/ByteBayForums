@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DiscussionForum
+build_property.RootNamespace = DiscussionForum
+build_property.ProjectDir = C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\DiscussionForum\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\DiscussionForum
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/nguye/Downloads/OneDrive/Desktop/software eng/Software Engineering/Development/Web Development/full stack/dotnet/DiscussionForum/DiscussionForum/Views/Categories/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguye/Downloads/OneDrive/Desktop/software eng/Software Engineering/Development/Web Development/full stack/dotnet/DiscussionForum/DiscussionForum/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguye/Downloads/OneDrive/Desktop/software eng/Software Engineering/Development/Web Development/full stack/dotnet/DiscussionForum/DiscussionForum/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguye/Downloads/OneDrive/Desktop/software eng/Software Engineering/Development/Web Development/full stack/dotnet/DiscussionForum/DiscussionForum/Views/Categories/_Category.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xfQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguye/Downloads/OneDrive/Desktop/software eng/Software Engineering/Development/Web Development/full stack/dotnet/DiscussionForum/DiscussionForum/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguye/Downloads/OneDrive/Desktop/software eng/Software Engineering/Development/Web Development/full stack/dotnet/DiscussionForum/DiscussionForum/Views/ModDashBoard/FlagPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kRGFzaEJvYXJkXEZsYWdQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguye/Downloads/OneDrive/Desktop/software eng/Software Engineering/Development/Web Development/full stack/dotnet/DiscussionForum/DiscussionForum/Views/ModDashBoard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kRGFzaEJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguye/Downloads/OneDrive/Desktop/software eng/Software Engineering/Development/Web Development/full stack/dotnet/DiscussionForum/DiscussionForum/Views/ModDashBoard/_ModDashBoardPostDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kRGFzaEJvYXJkXF9Nb2REYXNoQm9hcmRQb3N0RGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguye/Downloads/OneDrive/Desktop/software eng/Software Engineering/Development/Web Development/full stack/dotnet/DiscussionForum/DiscussionForum/Views/ModDashBoard/_ModDashBoardPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kRGFzaEJvYXJkXF9Nb2REYXNoQm9hcmRQb3N0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguye/Downloads/OneDrive/Desktop/software eng/Software Engineering/Development/Web Development/full stack/dotnet/DiscussionForum/DiscussionForum/Views/Posts/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguye/Downloads/OneDrive/Desktop/software eng/Software Engineering/Development/Web Development/full stack/dotnet/DiscussionForum/DiscussionForum/Views/Posts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguye/Downloads/OneDrive/Desktop/software eng/Software Engineering/Development/Web Development/full stack/dotnet/DiscussionForum/DiscussionForum/Views/Posts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguye/Downloads/OneDrive/Desktop/software eng/Software Engineering/Development/Web Development/full stack/dotnet/DiscussionForum/DiscussionForum/Views/Posts/_Post.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcX1Bvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguye/Downloads/OneDrive/Desktop/software eng/Software Engineering/Development/Web Development/full stack/dotnet/DiscussionForum/DiscussionForum/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguye/Downloads/OneDrive/Desktop/software eng/Software Engineering/Development/Web Development/full stack/dotnet/DiscussionForum/DiscussionForum/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguye/Downloads/OneDrive/Desktop/software eng/Software Engineering/Development/Web Development/full stack/dotnet/DiscussionForum/DiscussionForum/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

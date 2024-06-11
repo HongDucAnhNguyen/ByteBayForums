@@ -1,0 +1,111 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model PostViewModel
+@{
+	string action = ViewBag.Action ?? string.Empty;
+}
+
+<form class="mt-5" method="post" asp-controller="posts" asp-action="@action">
+
+
+	@if (action?.ToLower() == "edit")
+	{
+		<input type="hidden" asp-for="PostObject.PostId" />
+
+	}
+
+
+	<div class="text-danger" asp-validation-summary="All"></div>
+
+
+	<div class="row mb-3">
+		<div class="col-2">
+			<label asp-for="PostObject.CategoryId" class="col-form-label"></label>
+		</div>
+
+
+		<div class="col-6">
+
+		<select asp-for="PostObject.CategoryId" class="form-control">
+
+			<option>- Please Select -</option>
+				@if (Model.Categories != null && Model.Categories.Count() > 0)
+				{
+					@foreach (var category in Model.Categories)
+					{
+						<option value="@category.CategoryId">
+							@category.Name
+						</option>
+					}
+				}
+		</select>
+			
+			
+		</div>
+		<div class="col">
+			<span class="text-danger" asp-validation-for="PostObject.CategoryId"></span>
+		</div>
+
+	</div>
+
+
+
+
+	<div class="row mb-3">
+		<div class="col-2">
+			<label asp-for="PostObject.Subject" class="col-form-label"></label>
+		</div>
+
+
+		<div class="col-6">
+
+			<input type="text" asp-for="PostObject.Subject" class="form-control" />
+		</div>
+		<div class="col">
+			<span class="text-danger" asp-validation-for="PostObject.Subject"></span>
+		</div>
+
+	</div>
+
+	<div class="row mb-3">
+		<div class="col-2">
+			<label asp-for="PostObject.Content" class="col-form-label"></label>
+		</div>
+
+
+		<div class="col-6">
+
+			<textarea type="text" asp-for="PostObject.Content" class="form-control" ></textarea>
+		</div>
+
+		<div class="col">
+			<span class="text-danger" asp-validation-for="PostObject.Content"></span>
+		</div>
+
+	</div>
+
+
+	<div class="row mb-3">
+		<div class="col-2">
+			@if (action?.ToLower() == "edit")
+			{
+				<input type="submit" class="btn btn-primary" value="Save Changes" />
+
+			}
+			@if (action?.ToLower() == "add")
+			{
+
+				<input type="submit" class="btn btn-primary" value="Submit Post" />
+			}
+		</div>
+
+
+		<div class="col-6">
+		</div>
+
+	</div>
+
+</form>

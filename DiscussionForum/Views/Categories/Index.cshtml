@@ -1,0 +1,81 @@
+﻿@section title{
+    <h1>Categories</h1>
+}
+
+@model List<Category>
+
+
+    <p>Hello admin, manage categories here</p>
+    <br/>
+  
+
+      
+
+    @if(Model != null && Model.Count() > 0)
+    {
+
+     
+            <table class="table table-striped">
+                <thead>
+
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var category in Model)
+                    {
+                        <tr>
+
+                            <td>
+                                @category.Name
+                            </td>
+
+                        <td>
+                            @category.Description
+                        </td>
+
+                        <td>
+                            <a class="btn btn-link" asp-controller="categories" asp-action="edit"
+                            asp-route-id="@category.CategoryId"
+                            alt="edit category">Edit</a>
+
+                            
+                        </td>
+
+                        <td>
+                            <a class="btn bg-danger text-white" asp-controller="categories" asp-action="delete"
+                               asp-route-id="@category.CategoryId"
+                               alt="delete category"
+                            
+                            onclick="return confirmCategoryDeletion();"
+                            >Delete</a>
+
+
+                        </td>
+                        </tr>
+                    }
+                </tbody>
+               
+            </table>
+       
+
+}
+
+
+
+    
+        <a asp-controller="categories" asp-action="add"  class=" btn btn-primary">Add new category</a>
+   
+
+   
+
+@section scripts{
+    <script>
+        function confirmCategoryDeletion(){
+            return confirm("Are you sure you want to delete this category?");
+        }
+    </script>
+}

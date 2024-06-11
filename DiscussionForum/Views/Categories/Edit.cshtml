@@ -1,0 +1,27 @@
+﻿@model Category
+
+@section title {
+
+	<h1>Edit Category</h1>
+}
+
+
+@if (Model != null)
+{
+	<div>
+	<h3>Category: @Model.Name </h3>
+
+	</div>
+}
+
+@if (Model != null)
+{
+
+
+
+	<partial name="_Category" model="@Model" />
+
+	
+}
+
+

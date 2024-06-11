@@ -1,0 +1,91 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<Post>
+
+@section title{
+    <h3>Posts</h3>
+}
+
+<p>Hello user, manage your posts here</p>
+<br />
+
+@if (Model != null && Model.Count() > 0)
+{
+
+
+    <table class="table table-striped">
+        <thead>
+
+            <tr>
+                <th>Category Name</th>
+                <th>Subject</th>
+                <th>Content</th>
+                <th>isArchived</th>
+                <th>Flag</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var post in Model)
+            {
+                <tr>
+
+                    <td>
+                        @post.Category?.Name
+                    </td>
+
+                    <td>
+                        @post.Subject
+                    </td>
+
+                    <td>
+                        @post.Content
+                    </td>
+
+                    <td>
+                        @post.Flag
+                    </td>
+
+                    <td>
+                        @if (post.IsArchived != true)
+                        {
+                            <a class="btn btn-link" asp-controller="posts" asp-action="edit"
+                               asp-route-id="@post.PostId"
+                            alt="Flag post">Edit</a>
+                        }
+                        else
+                        {
+                            <p class="text-bg-info" 
+                              >This post has been archived by moderators</p>
+                        }
+
+
+                    </td>
+
+                    <td>
+                        <a class="btn bg-danger text-white" asp-controller="posts" asp-action="delete"
+                           asp-route-id="@post.PostId"
+                           alt="delete post"
+                           onclick="">Delete</a>
+
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+
+
+}
+
+<a asp-controller="posts" asp-action="add" class=" btn btn-primary">Add new Post</a>
+
+
+
+
+
+   

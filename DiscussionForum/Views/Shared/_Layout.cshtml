@@ -1,0 +1,79 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>ByteBay Forums</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css"></link>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"></link>
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" asp-controller="home" asp-action="index">ByteBay Forums</a>
+            <button class="navbar-toggler collapsed"
+            type="button" data-toggle="collapse"
+            data-target="#navbarsExample07"
+            aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse" id="navbarsExample07" style="">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" asp-controller="home" asp-action="index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="categories" asp-action="index">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="posts" asp-action="index">Posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="moddashboard" asp-action="index">Dashboard</a>
+                    </li>
+                  
+                </ul>
+                @* <form class="form-inline my-2 my-md-0">
+                    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                </form> *@
+            </div>
+        </div>
+    </nav>
+
+
+
+   <div class="container mt-5">
+       <div class="pb-3">
+           @RenderSection("title", required: true)
+           <hr></hr>
+       </div>
+
+       <div>
+
+       @RenderBody()
+       </div>
+
+   </div>
+
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+            </ul>
+            <p class="text-center text-muted">© 2022 Company, Inc</p>
+        </footer>
+    </div>'
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+   @await RenderSectionAsync("scripts", required:false)
+</body>
+</html>
