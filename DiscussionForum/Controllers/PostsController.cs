@@ -1,9 +1,11 @@
 ﻿using DiscussionForum.Models;
 using DiscussionForum.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DiscussionForum.Controllers
 {
+
     public class PostsController : Controller
     {
         public IActionResult Index()

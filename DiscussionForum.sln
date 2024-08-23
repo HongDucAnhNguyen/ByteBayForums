@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscussionForum", "DiscussionForum\DiscussionForum.csproj", "{6A196439-FC9D-4905-AF85-AE4AA689A6CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscussionForum", "DiscussionForum\DiscussionForum.csproj", "{6A196439-FC9D-4905-AF85-AE4AA689A6CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreBusiness", "CoreBusiness\CoreBusiness.csproj", "{44A4519F-00A4-4129-BB27-7384E6783B8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseCases", "UseCases\UseCases.csproj", "{EA00C67D-0D3E-40E7-B641-6E680DAEC640}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{3707241C-0311-4929-BD75-B861C9D8DE5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStore-InMemory", "Plugins\DataStore-InMemory\DataStore-InMemory.csproj", "{C249C513-1642-4E27-B45D-5C29C9F1D79D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStore-SQL", "Plugins\DataStore-SQL\DataStore-SQL.csproj", "{6DD47E57-A38D-4E88-90C0-77BBB3F45CEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,29 @@ Global
 		{6A196439-FC9D-4905-AF85-AE4AA689A6CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A196439-FC9D-4905-AF85-AE4AA689A6CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A196439-FC9D-4905-AF85-AE4AA689A6CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A4519F-00A4-4129-BB27-7384E6783B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A4519F-00A4-4129-BB27-7384E6783B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A4519F-00A4-4129-BB27-7384E6783B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A4519F-00A4-4129-BB27-7384E6783B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA00C67D-0D3E-40E7-B641-6E680DAEC640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA00C67D-0D3E-40E7-B641-6E680DAEC640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA00C67D-0D3E-40E7-B641-6E680DAEC640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA00C67D-0D3E-40E7-B641-6E680DAEC640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C249C513-1642-4E27-B45D-5C29C9F1D79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C249C513-1642-4E27-B45D-5C29C9F1D79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C249C513-1642-4E27-B45D-5C29C9F1D79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C249C513-1642-4E27-B45D-5C29C9F1D79D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD47E57-A38D-4E88-90C0-77BBB3F45CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD47E57-A38D-4E88-90C0-77BBB3F45CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD47E57-A38D-4E88-90C0-77BBB3F45CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD47E57-A38D-4E88-90C0-77BBB3F45CEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C249C513-1642-4E27-B45D-5C29C9F1D79D} = {3707241C-0311-4929-BD75-B861C9D8DE5F}
+		{6DD47E57-A38D-4E88-90C0-77BBB3F45CEB} = {3707241C-0311-4929-BD75-B861C9D8DE5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23B0E465-B405-419A-B392-E39B181DC6D1}

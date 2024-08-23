@@ -1,0 +1,12 @@
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\CoreBusiness\bin\Debug\net8.0\CoreBusiness.deps.json
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\CoreBusiness\bin\Debug\net8.0\CoreBusiness.dll
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\CoreBusiness\bin\Debug\net8.0\CoreBusiness.pdb
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\CoreBusiness\obj\Debug\net8.0\CoreBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\CoreBusiness\obj\Debug\net8.0\CoreBusiness.AssemblyInfoInputs.cache
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\CoreBusiness\obj\Debug\net8.0\CoreBusiness.AssemblyInfo.cs
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\CoreBusiness\obj\Debug\net8.0\CoreBusiness.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\CoreBusiness\obj\Debug\net8.0\CoreBusiness.sourcelink.json
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\CoreBusiness\obj\Debug\net8.0\CoreBusiness.dll
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\CoreBusiness\obj\Debug\net8.0\refint\CoreBusiness.dll
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\CoreBusiness\obj\Debug\net8.0\CoreBusiness.pdb
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\CoreBusiness\obj\Debug\net8.0\ref\CoreBusiness.dll

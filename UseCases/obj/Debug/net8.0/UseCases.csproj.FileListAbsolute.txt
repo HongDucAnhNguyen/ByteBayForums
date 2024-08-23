@@ -1,0 +1,16 @@
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\UseCases\bin\Debug\net8.0\UseCases.deps.json
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\UseCases\bin\Debug\net8.0\UseCases.dll
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\UseCases\bin\Debug\net8.0\UseCases.pdb
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\UseCases\bin\Debug\net8.0\CoreBusiness.dll
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\UseCases\bin\Debug\net8.0\CoreBusiness.pdb
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\UseCases\obj\Debug\net8.0\UseCases.csproj.AssemblyReference.cache
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\UseCases\obj\Debug\net8.0\UseCases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\UseCases\obj\Debug\net8.0\UseCases.AssemblyInfoInputs.cache
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\UseCases\obj\Debug\net8.0\UseCases.AssemblyInfo.cs
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\UseCases\obj\Debug\net8.0\UseCases.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\UseCases\obj\Debug\net8.0\UseCases.sourcelink.json
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\UseCases\obj\Debug\net8.0\UseCases.csproj.Up2Date
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\UseCases\obj\Debug\net8.0\UseCases.dll
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\UseCases\obj\Debug\net8.0\refint\UseCases.dll
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\UseCases\obj\Debug\net8.0\UseCases.pdb
+C:\Users\nguye\Downloads\OneDrive\Desktop\software eng\Software Engineering\Development\Web Development\full stack\dotnet\DiscussionForum\UseCases\obj\Debug\net8.0\ref\UseCases.dll

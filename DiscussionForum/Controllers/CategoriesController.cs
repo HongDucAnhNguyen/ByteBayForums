@@ -1,17 +1,32 @@
-﻿using DiscussionForum.Models;
+﻿using CoreBusiness;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-
+using UseCases.Interfaces;
 namespace DiscussionForum.Controllers
 {
+
     public class CategoriesController : Controller
     {
+        private readonly IViewCategoriesUseCase viewCategoriesUseCase;
+        private readonly IAddCategoryUseCase addCategoryUseCase;
+
+        public CategoriesController(
+            IViewCategoriesUseCase viewCategoriesUseCase,
+            IAddCategoryUseCase addCategoryUseCase
+            )
+        {
+            this.viewCategoriesUseCase = viewCategoriesUseCase;
+            this.addCategoryUseCase = addCategoryUseCase;
+
+
+        }
 
         //action methods
 
         //display categories
         public IActionResult Index()
         {
-            var categories = CategoriesRepository.GetCategories();
+            var categories = viewCategoriesUseCase.Execute();
 
             return View(categories);
         }
@@ -73,8 +88,7 @@ namespace DiscussionForum.Controllers
         {
             if (ModelState.IsValid)
             {
-                CategoriesRepository.AddCategory(category);
-                return RedirectToAction(nameof(Index));
+                addCategoryUseCase.Execute(category);
             }
 
             return View(category);

@@ -1,11 +1,13 @@
 ﻿using DiscussionForum.Enums;
 using DiscussionForum.Models;
 using DiscussionForum.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel;
 
 namespace DiscussionForum.Controllers
 {
+    [Authorize]
     public class ModDashBoardController : Controller
     {
         private readonly ILogger<ModDashBoardController> _logger;

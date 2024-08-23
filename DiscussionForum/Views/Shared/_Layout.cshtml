@@ -42,6 +42,8 @@
                 @* <form class="form-inline my-2 my-md-0">
                     <input class="form-control" type="text" placeholder="Search" aria-label="Search">
                 </form> *@
+
+                <partial name="_LoginPartial"/>
             </div>
         </div>
     </nav>
@@ -50,7 +52,7 @@
 
    <div class="container mt-5">
        <div class="pb-3">
-           @RenderSection("title", required: true)
+           @RenderSection("title", required: false)
            <hr></hr>
        </div>
 
@@ -61,18 +63,23 @@
 
    </div>
 
-    <div class="container">
-        <footer class="py-3 my-4">
+    <div class="footer bg-dark ">
+        <footer class="w-100 py-3 my-4 ">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2  text-light ">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2  text-light ">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2  text-light ">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2  text-light ">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2  text-light ">About</a></li>
             </ul>
-            <p class="text-center text-muted">© 2022 Company, Inc</p>
+            <p class="text-center text-secondary">
+                © 2024
+                <a href="https://thetechnorthman.com" target="_blank" class="text-secondary">
+                    thetechnorthman
+                </a>
+            </p>
         </footer>
-    </div>'
+    </div>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
    @await RenderSectionAsync("scripts", required:false)
 </body>
